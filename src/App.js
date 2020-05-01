@@ -4,12 +4,14 @@ import './App.css';
 
 import FrontendPage from './frontend';
 import BackendPage from './backend';
+import YoutubePage from './videopage';
 
 function App() {
   return (
     <div className="App">
      < FrontendPage/>
      < BackendPage/>
+     < YoutubePage/>
     </div>
   );
 }
